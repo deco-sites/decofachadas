@@ -19,13 +19,15 @@
         "__resolveType": "site/sections/Social.tsx",
         "social": [
           {
-            "label": "WhatsApp"
+            "label": "WhatsApp",
+            "href": "https://api.whatsapp.com/send?phone=56926250432&text=Hola!"
           },
           {
             "label": "Facebook"
           },
           {
-            "label": "Instagram"
+            "label": "Instagram",
+            "href": "https://www.instagram.com/decofachadas.cl"
           },
           {
             "label": "Tiktok"
@@ -44,16 +46,14 @@
         {
           "icon": "WhatsApp",
           "label": "Envíanos un mensaje",
-          "href": "https://api.whatsapp.com/send?phone=56926250432&text="
-        },
-        {
-          "icon": "ArrowLeft"
+          "href": "https://api.whatsapp.com/send?phone=56926250432&text=Hola!"
         }
       ]
     },
     {
       "__resolveType": "site/sections/Image.tsx",
-      "mobile": "https://data.decoassets.com/decofachadas/6ba55065-d6ba-4167-bc9e-c0ad786ca260/Decofachadas222.svg"
+      "mobile": "https://data.decoassets.com/decofachadas/6ba55065-d6ba-4167-bc9e-c0ad786ca260/Decofachadas222.svg",
+      "desktop": "https://data.decoassets.com/decofachadas/6ba55065-d6ba-4167-bc9e-c0ad786ca260/Decofachadas222.svg"
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
