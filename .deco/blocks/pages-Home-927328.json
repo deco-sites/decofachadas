@@ -2,12 +2,66 @@
   "name": "Home",
   "path": "/",
   "sections": [
-    { "__resolveType": "Header" },
-    { "__resolveType": "site/sections/Social.tsx" },
-    { "__resolveType": "site/sections/Links.tsx" },
-    { "__resolveType": "site/sections/Image.tsx" },
-    { "__resolveType": "site/sections/Links.tsx" },
-    { "__resolveType": "Footer" }
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Header.tsx",
+        "title": "<p><img src=\"https://data.decoassets.com/decofachadas/6ba55065-d6ba-4167-bc9e-c0ad786ca260/Decofachadas222.svg\"></p>",
+        "description": "<p style=\"text-align: center\">Renovamos la pintura de tu casa, portón y todo lo que necesites.</p>",
+        "logo": {
+          "alt": "asd"
+        }
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Social.tsx",
+        "social": [
+          {
+            "label": "WhatsApp"
+          },
+          {
+            "label": "Facebook"
+          },
+          {
+            "label": "Instagram"
+          },
+          {
+            "label": "Tiktok"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "site/sections/Links.tsx",
+      "links": [
+        {
+          "label": "Visita nuestro perfil de Instagram",
+          "href": "https://www.instagram.com/decofachadas.cl",
+          "icon": "Instagram"
+        },
+        {
+          "icon": "WhatsApp",
+          "label": "Envíanos un mensaje",
+          "href": "https://api.whatsapp.com/send?phone=56926250432&text="
+        },
+        {
+          "icon": "ArrowLeft"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Image.tsx",
+      "mobile": "https://data.decoassets.com/decofachadas/6ba55065-d6ba-4167-bc9e-c0ad786ca260/Decofachadas222.svg"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Footer.tsx",
+        "text": "Hecho con ❤️ por Sebastián Darío R."
+      }
+    }
   ],
   "__resolveType": "website/pages/Page.tsx"
 }

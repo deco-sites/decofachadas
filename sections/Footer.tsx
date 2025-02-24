@@ -13,10 +13,10 @@ interface Props {
 
 function Footer({
   image =
-    "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4959/d7aa9290-074f-417c-99c3-5b0587c8c2ee",
-  href = "https://deco.cx/",
+    "",
+  href = "",
   text = "Made with",
-  alt = "Made with deco.cx",
+  alt = "Made with ",
   height = 20,
   width = 50,
 }: Props): JSX.Element | null {
